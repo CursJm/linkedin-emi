@@ -1,0 +1,32 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6; /* Gris suave */
+  padding: 0.55rem 1rem;
+  border-radius: 9999px;
+  width: 380px;
+  border: 1px solid #d1d5db; /* Borde suave */
+}
+
+.inputSearch {
+  border: none;
+  background: transparent;
+  outline: none;
+  flex: 1;
+  font-size: 1rem;
+  color: #111827; /* Texto negro suave */
+}
+
+/* Color del placeholder */
+.inputSearch::placeholder {
+  color: #6b7280;  /* gris profesional */
+  opacity: 1;
+}
+
+/* Ícono de búsqueda */
+.iconSearch {
+  margin-left: 0.6rem;
+  width: 22px;
+  height: 22px;
+  color: #0a66c2; /* Azul LinkedIn */
+}

@@ -1,0 +1,61 @@
+/* PANEL SUPERPUESTO DESLIZABLE */
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: -260px;            /* oculto inicialmente */
+  border-right: 1px solid #e5e7eb;
+  transition: left 0.3s ease;
+  padding-top: 80px;       /* para no tapar la TopBar */
+  z-index: 50;
+}
+
+/* CUANDO ESTÁ ABIERTO */
+.open {
+  left: 0;
+}
+
+/* CAPA SEMITRANSPARENTE DETRÁS DEL MENÚ */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 40;
+}
+
+/* LISTA DEL MENÚ */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ITEMS DEL MENÚ */
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  color: #30597a;          /* azul institucional EMI */
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+/* HOVER */
+.item:hover {
+  background-color: #d1c026;  /* dorado EMI */
+}
+
+/* ÍCONOS */
+.icon {
+  width: 22px;
+  height: 22px;
+  color: #30597a;
+}
