@@ -1,0 +1,17 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background: #e8eef3;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  color: #30597a;
+  margin: 4px;
+}
+
+.remove {
+  margin-left: 6px;
+  cursor: pointer;
+  color: #8a0000;
+  font-weight: bold;
+}

@@ -26,4 +26,3 @@ export default function Avatar({ src = "/perfil.png", alt = "Avatar", size = 40,
     </button>
   );
 }
-

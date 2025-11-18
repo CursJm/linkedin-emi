@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #30597a;
+}
+
+.textarea {
+  padding: 0.8rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  min-height: 120px;
+  resize: vertical;
+  font-size: 1rem;
+  outline: none;
+}
+
+.textarea:focus {
+  border-color: #30597a;
+}
