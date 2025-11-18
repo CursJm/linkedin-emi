@@ -25,4 +25,3 @@ export async function PUT(req: Request) {
   perfil = { ...perfil, ...data };
   return NextResponse.json({ success: true, perfil });
 }
-
